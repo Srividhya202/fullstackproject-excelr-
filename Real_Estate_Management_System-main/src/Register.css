@@ -1,0 +1,93 @@
+/* Register.css */
+
+/* Form container */
+form {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #fdfdfd;
+    
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form title */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+/* Role selection */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+div > input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+div > input[type="radio"]:first-child {
+    margin-left: 0;
+}
+
+/* Error messages */
+span {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #27ae60;
+    transform: translateY(-3px);
+}
+
+button[type="submit"]:active {
+    background-color: #27ae60;
+    transform: translateY(0);
+}

@@ -1,0 +1,208 @@
+.property-details-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Header section */
+.property-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.property-image img {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-header h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.property-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Details section */
+.property-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.property-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.property-details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.property-details .detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.property-details .detail span {
+    font-weight: bold;
+    color: #222;
+}
+
+.property-details .description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Agent section */
+.agent-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.agent-info img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.agent-info .agent-details {
+    flex: 1;
+}
+
+.agent-info .agent-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.agent-info .agent-details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Payment options section */
+.payment-options {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.payment-options h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.payment-options .payment-method {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.payment-options .payment-method label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.payment-options .payment-method input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Buttons */
+.property-details-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.property-details-buttons button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.property-details-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.property-details-buttons .buy-now-button {
+    background-color: #28a745;
+}
+
+.property-details-buttons .buy-now-button:hover {
+    background-color: #218838;
+}
+
+.property-details-buttons .agent-details-button {
+    background-color: #17a2b8;
+}
+
+.property-details-buttons .agent-details-button:hover {
+    background-color: #138496;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .property-details-container {
+        padding: 15px;
+    }
+
+    .property-header img {
+        max-width:50px ;
+    }
+
+    .agent-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .agent-info img {
+        margin-bottom: 10px;
+    }
+
+    .property-details-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+button{
+    max-width: auto;
+    max-height: auto;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #28a745;
+}
+
+.transaction-details-input{
+    max-width:30% ;
+}

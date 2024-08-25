@@ -1,0 +1,164 @@
+App.css
+
+/* General container styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40;
+    padding: 40;
+    background-color: #f4f4f4;
+}
+
+h3, h4,h5 {
+    text-align: center;
+    color: #333;
+}
+
+/* Wrapper for dashboard content */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Input and button styles */
+input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4c87af;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border:round;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    width:20%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-top: 20px;
+    padding: 60;
+    
+}
+
+/* General Form Styles */
+form {
+    width: 100%;
+    max-width: 500px; /* Reduced form width */
+    margin: 20px auto; /* Center form on the page */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Headers */
+form h4, form h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Form Input Fields */
+form input[type="text"], form input[type="email"], form input[type="number"] ,form input[type="password"] {
+    width: 100%; /* Reduced input field width */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Center Input Fields in Forms */
+form input[type="text"], form input[type="email"], form input[type="number"] ,form input[type="password"] ,form input[type="role"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form input[type="radio"]{
+    margin:5px;
+
+}
+/* Form Buttons */
+form button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto 0; /* Center button */
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Flex container for properties and clients */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

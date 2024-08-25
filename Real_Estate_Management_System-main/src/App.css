@@ -1,0 +1,99 @@
+/* Wrapper styling */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url('wall.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Content styling */
+.content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Featured properties section */
+.featured-properties {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.featured-properties h2 {
+  text-align: center;
+  margin-bottom:5 px;
+}
+
+/* Cards container */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Individual card styling */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 250px;
+  height: 290px;
+
+  text-align: center;
+}
+
+.card img {
+  width: 95%;
+  height: 200px;
+  padding: 2px;
+  object-fit: cover; /* Ensures the image covers the entire area of the container */
+}
+
+.card-details {
+  border:2px solid #333;
+  padding: 0px;
+  font-size: 12px;
+  background-color: #d6d4d4;
+}
+
+.card-details h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-details p {
+  font-size: 1rem;
+  color: #666363;
+}
+
+/* Hover effect on cards */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Button styling within content */
+.content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.content button:hover {
+  background-color: #074b94;
+}

@@ -1,0 +1,252 @@
+/* General Styles */
+.client-dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.client-dashboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.section-title {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #0056b3;
+}
+
+/* Filter Styles */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-input {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.filter-button {
+    background-color: #5bc0de;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Property Cards Styles */
+.property-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.property-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.property-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.property-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.property-card-info {
+    padding: 15px;
+}
+
+.property-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.property-card-location,
+.property-card-price {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Modals Styles */
+.property-details-modal,
+.purchase-modal,
+.agent-details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 500px;
+    max-width: 90%;
+}
+
+.property-details-modal img,
+.agent-details-modal img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.purchase-modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.purchase-modal ul li {
+    margin-bottom: 10px;
+}
+
+.final-purchase-button,
+.purchase-button,
+.agent-details-button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.close-modal-button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+}
+
+/* Profile Form Styles */
+.profile-container {
+    margin-top: 20px;
+}
+
+.profile-form .form-group {
+    margin-bottom: 15px;
+}
+
+.profile-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.save-button,
+.cancel-button,
+.edit-button {
+    background-color: #5bc0de;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.error-text {
+    color: #d9534f;
+    font-size: 12px;
+}
+/* Toggle Bar Styles */
+.toggle-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.toggle-bar label {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toggle-bar input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Price Slider Styles */
+.price-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.price-slider label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.price-slider input[type="range"] {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #007bff;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.price-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #0056b3;
+    cursor: pointer;
+}
+
+.price-slider input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #0056b3;
+    cursor: pointer;
+}
